@@ -7,6 +7,95 @@
     <title>Document</title>
 </head>
 <body>
-    
+
+  <body onhashchange="pageChange()">
+    <!-- tabbar navigation -->
+    <nav class="tabbar">
+      <a href="#forside">Forside</a>
+      <a href="#bestilling">Bestil nu</a>
+      <a href="#spil">Månedens spil</a>
+      <a href="#om">Vores historie</a>
+      <a href="#kontakt">Kontakt os</a>
+    </nav>
+  
+    <!-- pages -->
+ 
+    <!-- forside page -->
+    <section id="forside" class="page">
+      <header class="topbar">
+        <h2></h2>
+      </header>
+      </section>
+    </section>
+
+        <!-- bestilling page -->
+        <section id="bestilling" class="page">
+          <header class="topbar">
+            <h2></h2>
+          </header>
+          </section>
+        </section>
+
+            <!-- spil page -->
+          <section id="spil" class="page">
+            <header class="topbar">
+              <h2></h2>
+            </header>
+            </section>
+          </section>
+  
+
+      <!-- om page -->
+          <section id="om" class="page">
+            <header class="topbar">
+              <h2></h2>
+            </header>
+            </section>
+          </section>
+
+        <!-- kontakt page -->
+        <section id="kontakt" class="page">
+          <header class="topbar">
+            <h2></h2>
+          </header>
+          </section>
+        </section>
+
+  
+  
+    <!-- loader  
+    <div id="loader">
+      <div class="spinner"></div>
+    </div>-->
+
+
+
+
+    <script src="js/spa.js"></script>
+
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.5.0/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.5.0/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+          apiKey: "AIzaSyDCQlMnj2hz2GPpw80t3xfC28TEaWvIV7M",
+          authDomain: "pizza-boys-a4c82.firebaseapp.com",
+          projectId: "pizza-boys-a4c82",
+          storageBucket: "pizza-boys-a4c82.appspot.com",
+          messagingSenderId: "866395906079",
+          appId: "1:866395906079:web:e993993af0a7f9bc6db52a",
+          measurementId: "G-NCW6SEQNHM"
+        };
+        
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+      </script>
 </body>
 </html>
