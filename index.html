@@ -4,65 +4,165 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js" defer></script>
+    <title>Pizzaboys</title>
 </head>
 <body>
 
   <body onhashchange="pageChange()">
     <!-- tabbar navigation -->
-    <nav class="tabbar">
-      <a href="#forside">Forside</a>
-      <a href="#bestilling">Bestil nu</a>
-      <a href="#spil">Månedens spil</a>
-      <a href="#om">Vores historie</a>
-      <a href="#kontakt">Kontakt os</a>
-    </nav>
-  
+    <nav class="nav">
+      <div class="container">
+          <div class="logo">
+              <a href="#">YourLogo</a>
+          </div>
+          <div class="main_list" id="mainListDiv">
+              <ul>
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">my work</a></li>
+                  <li><a href="#">disegn</a></li>
+                  <li><a href="#">dcontact</a></li>
+              </ul>
+          </div>
+          <div class="media_button">
+              <button class="main_media_button" id="mediaButton">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+              </button>
+          </div>
+      </div>
+  </nav>
+      
     <!-- pages -->
  
     <!-- forside page -->
     <section id="forside" class="page">
       <header class="topbar">
-        <h2></h2>
+        <h2>forside joe</h2>
       </header>
+      <div class="grid-container">
+        <article>
+          <h3>Ambition</h3>
+          <p>My ambition is to become a fullstack developer, currently building upon my javascript knowledge. I want to be part of a software company with the ability to get responsible for many different task, large and small. Maybe not even coding i love UX design aswell or projectmanagement. &#128293;</p>
+        </article>
+        <article>
+          <h3>Motivation</h3>
+          <p>When i first started i knew only what code are able to build. I was soon to be wiser, i quickly learned that there are many different code languages, with different use cases. When you encounter an error in a project, and struggle to find a way, when that frustation gets replaced with the satisfaction of finding a solution, i never get tired of that feeling.&#129504;</p>
+        </article>
+        <article>
+          <h3>Interests</h3>
+          <p>My personal interests are many. I like to keep my body healthy with exercising such as fitness, trail running and inliner rollerblading. I participate in a DND party with a group of 6 close friends, where our current goal is stop the evil wizard group Visum from corrupting the land of Neverwinter. I also take part in a bookclub called "Slow guys reading club" we are at our firth book at this moment, the book is called "The rock of the missing" and is great so far. I also like to spend time in the kitchen cooking dishes from different international kitchens. &#127836;</p>
+        </article>
+
+      </div>
       </section>
-    </section>
 
         <!-- bestilling page -->
         <section id="bestilling" class="page">
           <header class="topbar">
             <h2></h2>
           </header>
+          <div class="grid-container">
+          </div>
           </section>
-        </section>
+     
 
             <!-- spil page -->
           <section id="spil" class="page">
             <header class="topbar">
               <h2></h2>
             </header>
+            <div class="grid-container">
+            </div>
             </section>
-          </section>
+         
   
 
       <!-- om page -->
-          <section id="om" class="page">
+          <section id="historie" class="page">
             <header class="topbar">
               <h2></h2>
             </header>
+            <div class="grid-container">
+            </div>
             </section>
-          </section>
-
+       
         <!-- kontakt page -->
         <section id="kontakt" class="page">
           <header class="topbar">
             <h2></h2>
           </header>
+          <div class="grid-container">
+          </div>
           </section>
-        </section>
+     
 
-  
-  
+   <!-- footer -->
+   <div class="footer">
+    <div class="contain">
+    <div class="col">
+      <h1>Company</h1>
+      <ul>
+        <li>About</li>
+        <li>Mission</li>
+        <li>Services</li>
+        <li>Social</li>
+        <li>Get in touch</li>
+      </ul>
+    </div>
+    <div class="col">
+      <h1>Products</h1>
+      <ul>
+        <li>About</li>
+        <li>Mission</li>
+        <li>Services</li>
+        <li>Social</li>
+        <li>Get in touch</li>
+      </ul>
+    </div>
+    <div class="col">
+      <h1>Accounts</h1>
+      <ul>
+        <li>About</li>
+        <li>Mission</li>
+        <li>Services</li>
+        <li>Social</li>
+        <li>Get in touch</li>
+      </ul>
+    </div>
+    <div class="col">
+      <h1>Resources</h1>
+      <ul>
+        <li>Webmail</li>
+        <li>Redeem code</li>
+        <li>WHOIS lookup</li>
+        <li>Site map</li>
+        <li>Web templates</li>
+        <li>Email templates</li>
+      </ul>
+    </div>
+    <div class="col">
+      <h1>Support</h1>
+      <ul>
+        <li>Contact us</li>
+        <li>Web chat</li>
+        <li>Open ticket</li>
+      </ul>
+    </div>
+    <div class="col social">
+      <h1>Social</h1>
+      <ul>
+        <li><img src="https://svgshare.com/i/5fq.svg" width="32" style="width: 32px;"></li>
+        <li><img src="https://svgshare.com/i/5eA.svg" width="32" style="width: 32px;"></li>
+        <li><img src="https://svgshare.com/i/5f_.svg" width="32" style="width: 32px;"></li>
+      </ul>
+    </div>
+  <div class="clearfix"></div>
+  </div>
+  </div>
     <!-- loader  
     <div id="loader">
       <div class="spinner"></div>
