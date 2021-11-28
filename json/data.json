@@ -1,5 +1,59 @@
-[{
-    "main-intro": "Lækker surdejspizza på Aarhus Ø - Lavet efter italienske traditioner med dansk charme.",
-    "main-img": "/img",
-    "main-contact": "Nyd"
-}]
+{
+    "forside":[
+      {
+        "title":"Long john silver",
+        "description":"Lady with a red umbrella",
+        "img": "/assets/images/Furever.jpeg"
+      },
+      {
+        "title":"Long john silver",
+        "description":"Flowers and some fruits",
+        "img": "/assets/images/Furever.jpeg"
+      },
+      {
+        "title":"Long john silver",
+        "description":"Beautiful scenery",
+        "img": "/assets/images/Furever.jpeg"
+      },
+      {
+        "title":"Long john silver",
+        "description":"Some kind of bird",
+        "img": "/assets/images/Furever.jpeg"
+      },
+      {
+        "title":"Long john silver",
+        "description":"The attack of dragons",
+        "img": "/assets/images/Furever.jpeg"
+      }
+      
+    ],
+
+"historie":[
+        {
+          "title":"Long john silver",
+          "description":"Lady with a red umbrella",
+          "img": "/assets/images/Furever.jpeg"
+        },
+        {
+          "title":"Long john silver",
+          "description":"Flowers and some fruits",
+          "img": "/assets/images/Furever.jpeg"
+        },
+        {
+          "title":"Long john silver",
+          "description":"Beautiful scenery",
+          "img": "/assets/images/Furever.jpeg"
+        },
+        {
+          "title":"Long john silver",
+          "description":"Some kind of bird",
+          "img": "/assets/images/Furever.jpeg"
+        },
+        {
+          "title":"Long john silver",
+          "description":"The attack of dragons",
+          "img": "/assets/images/Furever.jpeg"
+        }
+        
+      ]
+  }
