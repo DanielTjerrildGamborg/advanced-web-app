@@ -1,29 +1,35 @@
-fetch("../json/data.json")
-.then(response => response.json())
-.then (data => {
-    console.log(data.historie)
+"use strict";
 
-    var rootElem = document.querySelector("#historie");
+// =========== Product functionality =========== //
+/*
+global variables: _products _selectedProductId
+*/
+let _products = [];
+let _selectedProductId;
 
-    for (let index = 0; index < data.historie.length; index++) {
-        const element = data.historie[index];
+/*
+Fetches json data from the file products.json
+*/
+async function fetchData() {
+  const response = await fetch('json/products.json');
+  const data = await response.json();
+  _products = data;
+  console.log(_products);
+  appendProducts(_products);
+}
 
-        var title = element.title;
-        var description = element.description;
-        var img = element.img;
-
-
-
-        console.log(element.title)
-
-        document.querySelector("#historie").innerText = data.historie[0].title
-        
-
-    }
-
-    //document.querySelector("#historie").innerText = data.historie[0].title
-})
+fetchData();
 
 
-
-
+function appendProducts(products) {
+  let htmlTemplate = "";
+  for (let product of products) {
+    htmlTemplate += /*html*/`
+      <article class="${product.status}">
+        <article>
+         
+        </article>
+          `;
+  }
+  document.querySelector('#historie').innerHTML = htmlTemplate;
+}
