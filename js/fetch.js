@@ -1,17 +1,13 @@
 "use strict";
 
-// =========== Product functionality =========== //
-/*
-global variables: _products _selectedProductId
-*/
-let _products = [];
-let _selectedProductId;
 
 /*
 Fetches json data from the file products.json
 */
+
+let _products = [];
 async function fetchData() {
-  const response = await fetch('json/products.json');
+  const response = await fetch('js/data.json');
   const data = await response.json();
   _products = data;
   console.log(_products);
@@ -25,9 +21,9 @@ function appendProducts(products) {
   let htmlTemplate = "";
   for (let product of products) {
     htmlTemplate += /*html*/`
-      <article class="${product.status}">
+      <article>
         <article>
-         
+         <h1>${product.historie.title}
         </article>
           `;
   }

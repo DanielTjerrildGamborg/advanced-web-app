@@ -1,23 +1,45 @@
 {
   "forside": [
     {
-      "title": "Long john silver",
-      "description": "Lady with a red umbrella",
+      "title": "PIZZABOYS",
+      "description": "Lækker surdejspizza på Aarhus Ø. Lavet efter italienske traditioner, med dansk charme.",
+      "img": "../img/wolt1.jpg"
+    },
+    {
+      "title": "Kontakt Os",
+      "description": "Vi vil super gerne høre fra jer - omend det er ris eller os. Vi tilbyder også at lave pizzaer til dit arrangement, så send os en mail og så kan du få sprøde, italienske pizzaer til netop din fest!",
+      "img": "../img/wolt2.jpg"
+    },
+    {
+      "title": "Månedens Spil",
+      "description": "Kunne du tænke dig chancen for at vinde lækre pizzaer til dig og dine venner? Deltag i spillet og vær med!",
+      "img": "../img/wolt3.jpg"
+    },
+    {
+      "title": "Historien om PIZZABOYS",
+      "description": "PIZZABOYS er den gamle fortælling om held i uheld. Vi startede med at lave pizzaer som et fritidsprojekt i sommeren 2021 og mens Herrelandsholdet uddelte tæsk til EM, uddelte vi en masse pizzaer til glade Aarhusianere. Efterspørgslen steg og nu befinder vi os ikke længere på Ingerslevs Boulevard, men derimod i et opvarmet telt på Aarhus Ø. Kom forbi og vær med til PIZZABOYS eventyret!",
+      "img": "../img/wolt4.jpg"
+    }
+  ],
+  "historie": [
+    {
+      "title": "Vores Historie",
+      "description": "PIZZABOYS er stiftet og drevet af Andreas Aarvig og Nicolai Engell, der begge har rigeligt erfaring hvad angår pizzaer. Begge to har arbejdet i flere år hos en stor dansk pizzariakæde og derfra kom inspirationen til, at lave deres egne pizzaer.",
+      "img": "../img/ingerslev.jpg"
+    },
+    {
+      "title": "Varme og glade dage",
+      "description": "Kort inden EM i fodbold 2021 åbner vi vores stand på Ingerslevs Boulevard i Aarhus. Her var PIZZABOYS blot et fritidsprojekt og et anderledes sommerjob for Andreas og Nicolai. Begge havde sommerferie fra deres universitetsstudier og så PIZZABOYS som en hyggelig sidegesjæft henover sommeren. Efterspørgslen på deres pizzaer var så enorm, at de var nødt til at droppe bøgerne og fokusere på mel, tomatsovs og de andre lækre ingredienser.",
       "img": "/assets/images/Furever.jpeg"
     },
     {
-      "title": "Long john gul",
-      "description": "Flowers and some fruits",
+      "title": "Vi vokser",
+      "description": "Bøgerne bliver efter sommerferien lagt på hylden da Andreas og Nicolai så potentialet i PIZZABOYS. De går herefter all in på pizzaerne og Ingerslevs Boulevard og begynder, at arbejde fuldtid.",
       "img": "/assets/images/Furever.jpeg"
     },
     {
-      "title": "Long john sølv",
-      "description": "Beautiful scenery",
-      "img": "/assets/images/Furever.jpeg"
-    },
-    {
-      "title": "Long john blå",
-      "description": "Some kind of bird",
+      "title": "PIZZABOYS flytter",
+      "description": "Her er vi så i dag. PIZZABOYS befinder sig nu i hyggelige omgivelser på Aarhus Ø. Pizzaerne bliver stadig lavet med kærlighed og gode ingredienser. Du kan være en del af eventyret allerede i dag. Kom og køb vores lækre pizzaer!",
       "img": "/assets/images/Furever.jpeg"
     },
     {
@@ -26,7 +48,47 @@
       "img": "/assets/images/Furever.jpeg"
     }
   ],
-  "historie": [
+
+  "menu": [
+    {
+      "title": "Margherita Buffalo",
+      "description": "Tomatsovs, Frisk mozzarella, Frisk buffalo, Basilikum, Olivenolie & Havsalt.",
+      "img": "../img/margherita_buffalo.jpg",
+      "price": 79
+    },
+    {
+      "title": "Spicy Salami",
+      "description": "Tomatsovs, Frisk mozzarella & Pikant Salami.",
+      "img": "../img/spicy_salami.jpg",
+      "price": 89
+    },
+    {
+      "title": "Portobello & Asparges",
+      "description": "Ricotta, Frisk mozzarella, Portobello svampe, Asparges & Trøffelolie.",
+      "img": "../img/portobello_og_asparges.jpg",
+      "price": 89
+    },
+    {
+      "title": "Grønkål & Græskar",
+      "description": "Ricotta, Frisk mozzarella, Grønkål, Græskar & Asparges.",
+      "img": "../img/groenkaal_og_graeskar.jpg",
+      "price": 89
+    },
+    {
+      "title": "Prosciutto & Pesto",
+      "description": "Tomatsovs, Frisk mozzarella, Lufttørret skinke, Rucola & Pesto.",
+      "img": "../img/prosciutto_&_pesto.jpg",
+      "price": 89
+    },
+  {
+    "title": "Græskar og Kantareller",
+    "description": "Græskar, Frisk mozzarella, Frisk buffalo, Kantareller & Havsalt",
+    "img": "../img/margherita_buffalo.jpg",
+    "price": 89
+  }
+],
+
+  "kontakt": [
     {
       "title": "Long john silver",
       "description": "Lady with a red umbrella",
@@ -53,4 +115,5 @@
       "img": "/assets/images/Furever.jpeg"
     }
   ]
+
 }
