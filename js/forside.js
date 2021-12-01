@@ -4,17 +4,16 @@
 /*
 Fetches json data from the file products.json
 */
-
-let _content = [];
-async function fetchData() {
-  const response = await fetch('js/data.json');
+let _contents = [];
+async function fetchForside() {
+  const response = await fetch('json/forside.json');
   const data = await response.json();
-  _content = data;
-  console.log(data.forside);
-  appendForside(_content);
+  _contents= data;
+  console.log(_contents);
+  appendForside(_contents);
 }
 
-fetchData();
+fetchForside();
 
 
 function appendForside(contents) {
@@ -23,9 +22,12 @@ function appendForside(contents) {
     htmlTemplate += /*html*/`
       <article>
         <article>
-         <h1>${content.forside.title}
+         <h1>${content.title}</h1>
+         <p>${content.description}</p>
+         <img src="${content.img}">
         </article>
           `;
   }
-  document.querySelector('#forside').innerHTML = htmlTemplate;
+  document.querySelector('#products-container').innerHTML = htmlTemplate;
 }
+

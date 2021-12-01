@@ -1,50 +1,22 @@
 [
   {
-    "id": 0,
-    "model": "MacBook Pro 13\"",
-    "brand": "Apple",
-    "price": "11799",
-    "img": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/mbp13touch-space-select-201807?wid=904&hei=840&fmt=jpeg&qlt=80&op_usm=0.5,0.5&.v=1529520060550",
-    "status": "outOfStock"
+    "title": "PIZZABOYS",
+    "description": "Lækker surdejspizza på Aarhus Ø. Lavet efter italienske traditioner, med dansk charme.",
+    "img": "../img/wolt1.jpg"
   },
   {
-    "id": 1,
-    "model": "MacBook Pro 15\"",
-    "brand": "Apple",
-    "price": "21499",
-    "img": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/mbp15touch-space-select-201807?wid=904&hei=840&fmt=jpeg&qlt=80&op_usm=0.5,0.5&.v=1529520056969",
-    "status": "inStock"
+    "title": "Kontakt Os",
+      "description": "Vi vil super gerne høre fra jer - omend det er ris eller os. Vi tilbyder også at lave pizzaer til dit arrangement, så send os en mail og så kan du få sprøde, italienske pizzaer til netop din fest!",
+      "img": "../img/wolt2.jpg"
   },
   {
-    "id": 2,
-    "model": "Zenbook 14\"",
-    "brand": "ASUS",
-    "price": "8099",
-    "img": "https://media.power.dk/images/h-7f45c2a55ddb117ac5356153c12b4e3b/products/951450/951450_1_900x900_w_g.jpg",
-    "status": "outOfStock"
+    "title": "Månedens Spil",
+    "description": "Kunne du tænke dig chancen for at vinde lækre pizzaer til dig og dine venner? Deltag i spillet og vær med!",
+    "img": "../img/wolt3.jpg"
   },
   {
-    "id": 3,
-    "model": "Ideapad S340 14\" (platinum grey)",
-    "brand": "Lenovo",
-    "price": "6099",
-    "img": "https://www.elgiganten.dk/image/dv_web_D180001002238583/32307/lenovo-ideapad-s340-14-baerbar-computer-platinum-grey.jpg",
-    "status": "inStock"
-  },
-  {
-    "id": 4,
-    "model": "ASUSBOOK 12\"",
-    "brand": "ASUS",
-    "price": "2099",
-    "img": "https://media.power.dk/images/h-7f45c2a55ddb117ac5356153c12b4e3b/products/951450/951450_1_900x900_w_g.jpg",
-    "status": "outOfStock"
-  },
-  {
-    "id": 5,
-    "model": "MacBook Pro 13\" M2",
-    "brand": "Apple",
-    "price": "20499",
-    "img": "https://media.power-cdn.net/images/h-c4944f8045db973eaca3a4bf1ad73ff3/products/1133508/1133508_6_1200x1200_t_g.webp",
-    "status": "inStock"
+    "title": "Historien om PIZZABOYS",
+    "description": "PIZZABOYS er den gamle fortælling om held i uheld. Vi startede med at lave pizzaer som et fritidsprojekt i sommeren 2021 og mens Herrelandsholdet uddelte tæsk til EM, uddelte vi en masse pizzaer til glade Aarhusianere. Efterspørgslen steg og nu befinder vi os ikke længere på Ingerslevs Boulevard, men derimod i et opvarmet telt på Aarhus Ø. Kom forbi og vær med til PIZZABOYS eventyret!",
+    "img": "../img/wolt4.jpg"
   }
 ]

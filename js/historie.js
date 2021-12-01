@@ -16,7 +16,7 @@ async function fetchData() {
   _products = data;
   console.log(_products);
   appendProducts(_products);
-  showLoader(false);
+  
 }
 
 fetchData();

@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <script src="js/main.js" defer></script>
+    <script src="js/main.js" async></script>
     <title>Pizzaboys</title>
     <meta name="author" content="Daniel Gamborg, Oscar Schou">
     <link rel="stylesheet" href="css/style.css">
@@ -51,25 +51,10 @@
     <section id="forside" class="page">
       <header class="topbar">
 
-        <h2>forside joe</h2>
-
-        <h1>Pizzaboys</h1>
-        <h2></h2>
 
       </header>
-      <div class="grid-container">
-        <article>
-          <h3>Ambition</h3>
-          <p>My ambition is to become a fullstack developer, currently building upon my javascript knowledge. I want to be part of a software company with the ability to get responsible for many different task, large and small. Maybe not even coding i love UX design aswell or projectmanagement. &#128293;</p>
-        </article>
-        <article>
-          <h3>Motivation</h3>
-          <p>When i first started i knew only what code are able to build. I was soon to be wiser, i quickly learned that there are many different code languages, with different use cases. When you encounter an error in a project, and struggle to find a way, when that frustation gets replaced with the satisfaction of finding a solution, i never get tired of that feeling.&#129504;</p>
-        </article>
-        <article>
-          <h3>Interests</h3>
-          <p>My personal interests are many. I like to keep my body healthy with exercising such as fitness, trail running and inliner rollerblading. I participate in a DND party with a group of 6 close friends, where our current goal is stop the evil wizard group Visum from corrupting the land of Neverwinter. I also take part in a bookclub called "Slow guys reading club" we are at our firth book at this moment, the book is called "The rock of the missing" and is great so far. I also like to spend time in the kitchen cooking dishes from different international kitchens. &#127836;</p>
-        </article>
+      <section id="products-container" class="grid-container"></section>
+      
 
       </div>
       </section>
@@ -80,9 +65,22 @@
             <h1>Bestil nu</h1>
             <h2></h2>
           </header>
-          <div class="grid-container">
-          </div>
-          </section>
+        </section>
+        <section class="container content-section grid-container">
+            <h2 class="section-header">Kurv</h2>
+            <div class="cart-row">
+                <span class="cart-item cart-header cart-column">ITEM</span>
+                <span class="cart-price cart-header cart-column">Pris</span>
+                <span class="cart-quantity cart-header cart-column">Antal</span>
+            </div>
+            <div class="cart-items">
+            </div>
+            <div class="cart-total">
+                <strong class="cart-total-title">Total</strong>
+                <span class="cart-total-price">0 kr.</span>
+            </div>
+            <button class="btn btn-primary btn-purchase" type="button">Færdiggør ordre</button>
+        </section>
      
 
             <!-- spil page -->
@@ -152,9 +150,11 @@
     <div id="loader">
       <div class="spinner"></div>
     </div>-->
-
+    <script src="js/menu.js"></script>
+    <script src="js/spil.js"></script>
     <script src="js/historie.js"></script>
     <script src="js/forside.js"></script>
+    <script src="js/kontakt.js"></script>
     <script src="js/spa.js"></script>
 
     <script type="module">

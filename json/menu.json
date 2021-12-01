@@ -1,0 +1,38 @@
+[
+    {
+    "title": "Margherita Buffalo",
+    "description": "Tomatjuice, Frisk mozzarella, Frisk buffalo, Basilikum, Olivenolie & Havsalt.",
+    "img": "../img/margherita_buffalo.jpg",
+    "price": 79
+  },
+  {
+    "title": "Spicy Salami",
+    "description": "Tomatsovs, Frisk mozzarella & Pikant Salami.",
+    "img": "../img/spicy_salami.jpg",
+    "price": 89
+  },
+  {
+    "title": "Portobello & Asparges",
+    "description": "Ricotta, Frisk mozzarella, Portobello svampe, Asparges & Trøffelolie.",
+    "img": "../img/portobello_og_asparges.jpg",
+    "price": 89
+  },
+  {
+    "title": "Grønkål & Græskar",
+    "description": "Ricotta, Frisk mozzarella, Grønkål, Græskar & Asparges.",
+    "img": "../img/groenkaal_og_graeskar.jpg",
+    "price": 89
+  },
+  {
+    "title": "Prosciutto & Pesto",
+    "description": "Tomatsovs, Frisk mozzarella, Lufttørret skinke, Rucola & Pesto.",
+    "img": "../img/prosciutto_&_pesto.jpg",
+    "price": 89
+  },
+{
+  "title": "Græskar og Kantareller",
+  "description": "Græskar, Frisk mozzarella, Frisk buffalo, Kantareller & Havsalt",
+  "img": "../img/margherita_buffalo.jpg",
+  "price": 89
+}
+  ]

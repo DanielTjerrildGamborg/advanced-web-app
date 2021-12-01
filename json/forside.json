@@ -1,0 +1,22 @@
+[
+    {
+      "title": "PIZZABOYS",
+      "description": "Lækker surdejspizza på Aarhus Ø. Lavet efter italienske traditioner, med dansk charme.",
+      "img": "../img/wolt1.jpg"
+    },
+    {
+      "title": "Kontakt Os",
+        "description": "Vi vil super gerne høre fra jer - omend det er ris eller os. Vi tilbyder også at lave pizzaer til dit arrangement, så send os en mail og så kan du få sprøde, italienske pizzaer til netop din fest!",
+        "img": "../img/wolt2.jpg"
+    },
+    {
+      "title": "Månedens Spil",
+      "description": "Kunne du tænke dig chancen for at vinde lækre pizzaer til dig og dine venner? Deltag i spillet og vær med!",
+      "img": "../img/wolt3.jpg"
+    },
+    {
+      "title": "Historien om PIZZABOYS",
+      "description": "PIZZABOYS er den gamle fortælling om held i uheld. Vi startede med at lave pizzaer som et fritidsprojekt i sommeren 2021 og mens Herrelandsholdet uddelte tæsk til EM, uddelte vi en masse pizzaer til glade Aarhusianere. Efterspørgslen steg og nu befinder vi os ikke længere på Ingerslevs Boulevard, men derimod i et opvarmet telt på Aarhus Ø. Kom forbi og vær med til PIZZABOYS eventyret!",
+      "img": "../img/wolt4.jpg"
+    }
+  ]
