@@ -21,13 +21,12 @@ function appendForside(contents) {
   for (let content of contents) {
     htmlTemplate += /*html*/`
       <article>
-        <article>
          <h1>${content.title}</h1>
          <p>${content.description}</p>
          <img src="${content.img}">
         </article>
           `;
   }
-  document.querySelector('#products-container').innerHTML = htmlTemplate;
+  document.querySelector('.grid-container').innerHTML = htmlTemplate;
 }
 
