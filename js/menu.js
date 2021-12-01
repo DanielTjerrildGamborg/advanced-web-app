@@ -29,7 +29,8 @@ function appendMenu(menus) {
          <button class="btn btn-primary shop-item-button" type="button">Læg i kurv</button>
          </div>
         </div>
+        
           `;
   }
-  document.querySelector('#bestil').innerHTML = htmlTemplate;
+  document.querySelector('.bestil-section').innerHTML = htmlTemplate;
 }
