@@ -80,7 +80,7 @@ function addItemToCart(title, price, imageSrc) {
     let cartItemNames = cartItems.getElementsByClassName('cart-item-title')
     for (let i = 0; i < cartItemNames.length; i++) {
         if (cartItemNames[i].innerText == title) {
-            alert('This item is already added to the cart')
+            alert('Vil du købe flere af denne pizza? Rediger antallet i kurven!')
             return
         }
     }
