@@ -598,7 +598,7 @@ select{
 }
 
 .btn-danger {
-  background-color: red;
+  background-color: rgb(255, 0, 0);
 }
 
 .cart-header {

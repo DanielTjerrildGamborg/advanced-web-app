@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <script src="js/main.js" async></script>
     <title>Pizzaboys</title>
     <meta name="author" content="Daniel Gamborg, Oscar Schou">
     <link rel="stylesheet" href="css/style.css">
@@ -61,7 +60,7 @@
         <!-- bestilling page -->
         <section id="bestil" class="page"><div class="bestil-section"></div>
           
-        <!--</section> -->
+        
         <div class="container content-section grid-container">
             <h2 class="section-header">Kurv</h2>
             <div class="cart-row">
@@ -149,6 +148,7 @@
     <div id="loader">
       <div class="spinner"></div>
     </div>-->
+    <script  type="module" src="js/main.js" async></script>
     <script src="https://files.cdn.leadfamly.com/campaign/sdk/utilities.responsive_iframe.min.js"></script>
     <script src="js/menu.js"></script>
     <script src="js/spil.js"></script>
@@ -157,29 +157,6 @@
     <script src="js/kontakt.js"></script>
     <script src="js/spa.js"></script>
 
-    <script type="module">
-        // Import the functions you need from the SDKs you need
-        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.5.0/firebase-app.js";
-        import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.5.0/firebase-analytics.js";
-        // TODO: Add SDKs for Firebase products that you want to use
-        // https://firebase.google.com/docs/web/setup#available-libraries
-      
-        // Your web app's Firebase configuration
-        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-        const firebaseConfig = {
-          apiKey: "AIzaSyDCQlMnj2hz2GPpw80t3xfC28TEaWvIV7M",
-          authDomain: "pizza-boys-a4c82.firebaseapp.com",
-          projectId: "pizza-boys-a4c82",
-          storageBucket: "pizza-boys-a4c82.appspot.com",
-          messagingSenderId: "866395906079",
-          appId: "1:866395906079:web:e993993af0a7f9bc6db52a",
-          measurementId: "G-NCW6SEQNHM"
-        };
-        
-      
-        // Initialize Firebase
-        const app = initializeApp(firebaseConfig);
-        const analytics = getAnalytics(app);
-      </script>
+  
 </body>
 </html>
