@@ -320,7 +320,7 @@ body {
   
  /* ny grid */
 
-  .grid-container, .bestil-section, .grid-historie {
+  .grid-container, .bestil-section, .grid-historie, .grid-container-img {
   display: grid;
   grid-template-columns: 100%;
   padding: 1em;
@@ -328,13 +328,13 @@ body {
 }
 
 @media (min-width: 600px) {
-  .grid-container, .bestil-section, .grid-historie {
+  .grid-container, .bestil-section, .grid-historie, .grid-container-img {
      grid-template-columns: 50% 50%;
   }
 }
 
 @media (min-width: 992px) {
-  .grid-container, .bestil-section, .grid-historie {
+  .grid-container, .bestil-section, .grid-historie, .grid-container-img {
     grid-template-columns: 50% 50%;
   }
 }
