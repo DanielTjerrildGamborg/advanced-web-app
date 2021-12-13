@@ -1,5 +1,3 @@
-// kode til burgermenu
-
 let mainListDiv = document.getElementById("mainListDiv"),
     mediaButton = document.getElementById("mediaButton");
 
@@ -117,4 +115,3 @@ function updateCartTotal() {
     total = Math.round(total * 100) / 100
     document.getElementsByClassName('cart-total-price')[0].innerText = total + ' kr.'
 }
-

@@ -1,5 +1,6 @@
 "use strict";
 
+
 /*
 Fetches json data from the file products.json
 */
@@ -14,6 +15,7 @@ async function fetchForside() {
 
 fetchForside();
 
+
 function appendForside(contents) {
   let htmlTemplate = "";
   for (let content of contents) {
@@ -27,3 +29,4 @@ function appendForside(contents) {
   }
   document.querySelector('.grid-container').innerHTML = htmlTemplate;
 }
+
