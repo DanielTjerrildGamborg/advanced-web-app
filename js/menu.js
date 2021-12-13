@@ -22,7 +22,7 @@ function appendMenu(menus) {
     htmlTemplate += /*html*/`
         <div class="shop-item">
          <span class="shop-item-title">${menu.title}</span>
-         <p>${menu.description}</p>
+         <p class="shop-item-description">${menu.description}</p>
          <img src="${menu.img}" class="shop-item-image">
          <div class="shop-item-details">
          <span class="shop-item-price">${menu.price} kr.</span>

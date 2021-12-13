@@ -20,13 +20,16 @@ function appendForside(contents) {
   let htmlTemplate = "";
   for (let content of contents) {
     htmlTemplate += /*html*/`
-      <article>
+      <article class="outer-flexbox">
+         <div class="inner-flexbox">
          <h1>${content.title}</h1>
          <p>${content.description}</p>
-         <img src="${content.img}">
+         <button type="button" onclick="navigateTo('${content.buttonlink}')" id="main-btn">${content.buttontxt}</button>
+         </div>
+         <img src="${content.img}" class="main-img">
         </article>
           `;
   }
-  document.querySelector('.grid-container').innerHTML = htmlTemplate;
+  document.querySelector('.forside-section').innerHTML = htmlTemplate;
 }
 
