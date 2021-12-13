@@ -1,26 +1,16 @@
-// Import the functions you need from the SDKs you need
-import { initializeApp } from "firebase/app";
-import { getAnalytics } from "firebase/analytics";
-// TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
+// kode til burgermenu
 
-// Your web app's Firebase configuration
-// For Firebase JS SDK v7.20.0 and later, measurementId is optional
-const firebaseConfig = {
-  apiKey: "AIzaSyDCQlMnj2hz2GPpw80t3xfC28TEaWvIV7M",
-  authDomain: "pizza-boys-a4c82.firebaseapp.com",
-  projectId: "pizza-boys-a4c82",
-  storageBucket: "pizza-boys-a4c82.appspot.com",
-  messagingSenderId: "866395906079",
-  appId: "1:866395906079:web:e993993af0a7f9bc6db52a",
-  measurementId: "${config.measurementId}"
+let mainListDiv = document.getElementById("mainListDiv"),
+    mediaButton = document.getElementById("mediaButton");
+
+mediaButton.onclick = function () {
+    
+    "use strict";
+    
+    mainListDiv.classList.toggle("show_list");
+    mediaButton.classList.toggle("active");
+    
 };
-
-// Initialize Firebase
-const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);
-
-
 
 // kode til pizza bestilling
 
@@ -128,16 +118,3 @@ function updateCartTotal() {
     document.getElementsByClassName('cart-total-price')[0].innerText = total + ' kr.'
 }
 
-// kode til burgermenu
-
-let mainListDiv = document.getElementById("mainListDiv"),
-    mediaButton = document.getElementById("mediaButton");
-
-mediaButton.onclick = function () {
-    
-    "use strict";
-    
-    mainListDiv.classList.toggle("show_list");
-    mediaButton.classList.toggle("active");
-    
-};
