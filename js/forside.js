@@ -26,7 +26,7 @@ function appendForside(contents) {
          <p>${content.description}</p>
          <button type="button" onclick="navigateTo('${content.buttonlink}')" id="main-btn">${content.buttontxt}</button>
          </div>
-         <img src="${content.img}" class="main-img">
+         <img src="${content.img}" class="main-img" alt="${content.alt}">
         </article>
           `;
   }

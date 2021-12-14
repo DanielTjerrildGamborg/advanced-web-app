@@ -23,7 +23,7 @@ function appendMenu(menus) {
         <div class="shop-item">
          <span class="shop-item-title">${menu.title}</span>
          <p class="shop-item-description">${menu.description}</p>
-         <img src="${menu.img}" class="shop-item-image">
+         <img src="${menu.img}" class="shop-item-image" alt="${menu.alt}">
          <div class="shop-item-details">
          <span class="shop-item-price">${menu.price} kr.</span>
          <button class="btn btn-primary shop-item-button" type="button">Læg i kurv</button>

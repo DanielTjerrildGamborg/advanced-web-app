@@ -5,7 +5,8 @@
     "img": "../img/margherita_buffalo.jpg",
     "number": "Nr. 1",
     "price": 79,
-    "id": 0
+    "id": 0,
+    "alt":"Magherita Buffalo - med lækker bøffelmozzeralle og andre gode toppings."
   }, 
   {
     "title": "Spicy Salami",
@@ -13,7 +14,8 @@
     "img": "../img/spicy_salami.jpg",
     "number": "Nr. 2",
     "price": 89,
-    "id": 1
+    "id": 1,
+    "alt":"Surdejspizza med stærk salami"
   },
   {
     "title": "Portobello & Asparges",
@@ -21,7 +23,8 @@
     "img": "../img/portobello_og_asparges.jpg",
     "number": "Nr. 3",
     "price": 89,
-    "id": 2
+    "id": 2,
+    "alt":"Vegetarpizza til en god aften uden kød!"
   },
   {
     "title": "Grønkål & Græskar",
@@ -29,7 +32,8 @@
     "img": "../img/groenkaal_og_graeskar.jpg",
     "number": "Nr. 4",
     "price": 89,
-    "id": 3
+    "id": 3,
+    "alt":"Lækker pizza med sæsonens højtidige grøntsager!"
   },
   {
     "title": "Prosciutto & Pesto",
@@ -37,7 +41,8 @@
     "img": "../img/prosciutto_&_pesto.jpg",
     "number": "Nr. 5",
     "price": 89,
-    "id": 4
+    "id": 4,
+    "alt":"Surdejspizza med friske råvarer!"
   },
 {
   "title": "Græskar & Kantareller",
@@ -45,6 +50,7 @@
   "img": "../img/margherita_buffalo.jpg",
   "number": "Nr. 6",
   "price": 89,
-  "id": 5
+  "id": 5,
+  "alt":"Lækker pizza med efterårstema!"
 }
   ]

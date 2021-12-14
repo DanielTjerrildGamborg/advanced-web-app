@@ -13,6 +13,9 @@
     <link rel="shortcut icon" type="image/png" href="img/favicon2.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
 
 
@@ -21,34 +24,39 @@
 
   <body onhashchange="pageChange()">
     <!-- tabbar navigation -->
-    <nav class="nav">
-      <div class="container">
-          <div class="logo">
-              <img src="/img/logo.png">
-          </div>
-          <div class="main_list" id="mainListDiv">
-              <ul>
-                  <li><a href="#forside" class="header-list">Forside</a></li>
-                  <li><a href="#bestil"class="header-list">Bestil her</a></li>
-                  <li><a href="#spil"class="header-list">Månedens spil</a></li>
-                  <li><a href="#historie" class="header-list">Vores Historie</a></li>
-                  <li><a href="#kontakt" class="header-list">Kontakt os</a></li>
-              </ul>
-          </div>
-          <div class="media_button">
-              <button class="main_media_button" id="mediaButton">
-                  <span></span>
-                  <span></span>
-                  <span></span>
-              </button>
-          </div>
+    <nav>
+      <div class="logo">
+          <h4> <a href="#forside"><img src="img/logo.png" class="logo" alt="PIZZABOYS - Suredejspizza på Aarhus Ø"></a></h4>
+      </div>
+
+      <!---- BURGERMENU SECTION ----->
+
+      <ul class="nav-links" style="z-index: 2">
+          <li><a href="#forside" class="active">Forside</a></li>
+
+          <li><a href="#bestil">Bestil her</a></li>
+
+          <li><a href="#spil">Månedens Spil</a></li>
+
+          <li><a href="#historie">Vores historie</a></li>
+
+          <li><a href="#kontakt">Kontakt</a></li>
+
+
+
+      </ul>
+      <div class="burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
       </div>
   </nav>
       
     <!-- pages -->
  
     <!-- forside page -->
-    <section id="forside" class="page forside-section">
+    
+    <section id="forside" class="page forside-section"></section>
       <header class="topbar">
 
 
@@ -60,8 +68,8 @@
       </section>
 
         <!-- bestilling page -->
-        <section id="bestil" class="page"><div class="bestil-section"></div>
-          
+        <section id="bestil" class="page"><h1 class="bestil-header">Menu</h1><div class="bestil-section"></div>
+       
         <!--</section> -->
         <div class="container content-section">
             <h2 class="section-header">Kurv</h2>

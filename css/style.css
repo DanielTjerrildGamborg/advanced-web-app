@@ -18,138 +18,98 @@ body {
   margin-left: 5%;
   margin-right: 5%;
 }
-
-/* Navbar section */
-
-.nav{
-  width: 100%;
-  height: 65px;
-  position: top;
-  line-height: 65px;
-  text-align: center;
-  background-color: #CDCB98;
+.nav {
+  z-index: 1;
 }
 
-.nav div.logo{
-  height: 100%;
-  justify-content: center;
-  position: absolute;
-  margin-top: 15px;
+/* -------- Nav bar ----------*/
+
+.logo {
+  width: 280px;
+  max-width: 100%;
+  height: auto;
+  float: left;
 }
 
-.nav div.logo a{
-  text-decoration: none;
-  color: #fff;
-  font-size: 1.8em;
-  text-transform: uppercase;
-}
+/*--- Navigation ---*/
 
-.nav div.logo a:hover {
-  color: #fff;
-}
-
-.nav div.main_list{
-  width: 600px;
-  height: 50px;
-  float: right;
-}
-
-.nav div.main_list ul{
-  width:100%;
-  height:50px;
+nav {
   display: flex;
-  list-style: none;
-}
-
-.nav div.main_list ul li{
-  width: 120px;
-  height: 50px;
-  margin-bottom: 10px;
-}
-
-.nav div.main_list ul li a{
-  text-decoration: none;
-  color: #fff;
-  margin: 20px 15px;
-  text-transform: uppercase;
-}
-
-.header-list {
-  font-size: 2em;
-}
-
-.nav div.main_list ul li a:hover{
-  color: #c0c0c0;
-}
-
-.nav div.media_button {
-  width: 40px;
-  height: 40px;
-  background-color: transparent;
-  position: absolute;
-  right: 15px;
-  top: 12px;
-  display: none;
-}
-
-.nav div.media_button button.main_media_button {
+  justify-content: space-around;
+  align-items: center;
+  min-height: 75px;
+  background-color: #CDCB98;
+  font-family: 'Poppins', sans-serif;
   width: 100%;
-  height: 100%;
-  background-color: transparent;;
-  outline: 0;
-  border: none;
+
+}
+
+.nav-links {
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+}
+
+.nav-links li {
+  list-style: none;
+
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.active {
+  border-bottom: 2.5px solid white;
+
+}
+
+
+
+/*--- Burger Menu ---*/
+
+.burger {
+  display: none;
   cursor: pointer;
 }
 
-.nav div.media_button button.main_media_button span{
-  width: 98%;
-  height: 2px;
-  display: block;
-  background-color: #fff;
-  margin-top: 9px;
-  margin-bottom: 10px;
+.burger div {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 5px;
+  transition: all 0.3s ease;
 }
 
-.nav div.media_button button.main_media_button:hover span:nth-of-type(1){
-  transform: rotateY(180deg);
-  transition: all 0.5s;
-  background-color: #fff;
+/*--- Burger Animation ---*/
+
+.toggle .line1 {
+  transform: rotate(-45deg) translate(-5px, 6px);
 }
 
-.nav div.media_button button.main_media_button:hover span:nth-of-type(2){
-  transform: rotateY(180deg);
-  transition: all 0.4s;
-  background-color: #fff;
+.toggle .line2 {
+  opacity: 0;
 }
 
-.nav div.media_button button.main_media_button:hover span:nth-of-type(3){
-  transform: rotateY(180deg);
-  transition: all 0.3s;
-  background-color: #fff;
+.toggle .line3 {
+  transform: rotate(45deg) translate(-5px, -6px);
 }
 
-.nav div.media_button button.active span:nth-of-type(1) {
-  transform: rotate3d(0, 0, 1, 45deg);
-  position: absolute;
-  margin: 0;
-}
+@keyframes navLinkFade {
+  from {
+      opacity: 0;
+      transform: translateX(50px);
+  }
 
-.nav div.media_button button.active span:nth-of-type(2) {
-  display: none;
-}
+  to {
+      opacity: 1;
+      transform: translateX(0px);
 
-.nav div.media_button button.active span:nth-of-type(3) {
-  transform: rotate3d(0, 0, 1, -45deg);
-  position: absolute;
-  margin: 0;
-}
-
-.nav div.media_button button.active:hover span:nth-of-type(1) {
-  transform: rotate3d(0, 0, 1, 20deg);
-}
-
-.nav div.media_button button.active:hover span:nth-of-type(3) {
-  transform: rotate3d(0, 0, 1, -20deg);
+  }
 }
 
 /* Home section */
@@ -459,57 +419,16 @@ padding: 1em;
 gap: 1em;
 }
 
-/*---- header ----*/
-@media screen and (max-width:768px) {
-    
-  .container{
-      margin: 0;
-  }
-  
-  .nav div.logo{
-      margin-left: 15px;
-  }
-  
-  .nav div.main_list{
-      width: 100%;
-      margin-top: 65px;
-      height: 0px;
-      overflow: hidden;
-  }
-  
-  .nav div.show_list{
-      height: 200px;
-  }
-  
-  .nav div.main_list ul{
-      flex-direction: column;
-      width: 100%;
-      height: 200px;
-      top: 80px;
-      right: 0;
-      left: 0;
-  }
-  
-  .nav div.main_list ul li{
-      width: 100%;
-      height: 40px;
-      background-color:#CDCB98;
-  }
-  
-  .nav div.main_list ul li a{
-    text-align: center;
-      line-height: 40px;
-      width: 100%;
-      height: 40px;
-      display: table;
-  }
-  
-  .nav div.media_button{
-      display: block;
-  }
-}
+
 
 /*------ styling af forside --------*/
+
+.forside-header {
+  text-align: center;
+  font-family: 'Monoton', cursive;
+  font-size: 3em;
+  color: #333;
+}
 
 #main-btn {
   background-color: black;
@@ -545,8 +464,19 @@ gap: 1em;
 
 /* styling the menu page*/
 
+.bestil-section {
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+.bestil-header {
+  text-align: center;
+  font-size: 2em;
+}
+
 .shop-item {
 width: 100%;
+margin-bottom: 20px;
 }
 
 .shop-item-title {
@@ -668,7 +598,7 @@ justify-content: center;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 100%;
+    width: 90%;
     justify-content: center;
   }
 .shop-item {
@@ -745,4 +675,40 @@ justify-content: center;
     border-radius: 10px;
     margin: 0 auto;
   }
+  
+}
+
+
+@media only screen and (max-width: 600px) {
+
+  body {
+    overflow-x: hidden;
+}
+.nav-links {
+    position: fixed;
+    right: 0px;
+    height: 92vh;
+    top: 8vh;
+    background-color: #CDCB98;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in;
+}
+
+
+
+
+.burger {
+    display: block;
+
+}
+
+.nav-active {
+    transform: translateX(0%)
+}
+
+  
 }
