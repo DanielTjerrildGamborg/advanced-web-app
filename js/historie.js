@@ -20,13 +20,15 @@ function appendHistorie(historier) {
   let htmlTemplate = "";
   for (let historie of historier) {
     htmlTemplate += /*html*/`
-      <article>
+    <article class="outer-flexbox">
+    <div class="inner-flexbox">
          <h1>${historie.title}</h1>
          <p>${historie.description}</p>
-         <img src="${historie.img}">
+         </div>
+         <img src="${historie.img}" alt="${historie.alt}" class="main-img">
         </article>
           `;
   }
-  document.querySelector('.grid-historie').innerHTML = htmlTemplate;
+  document.querySelector('#historie').innerHTML = htmlTemplate;
 }
 

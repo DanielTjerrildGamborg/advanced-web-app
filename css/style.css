@@ -8,8 +8,6 @@ body {
 }
 
 
-
-
 /*--- STYLING THE TOPBAR ---*/
 
 
@@ -29,6 +27,7 @@ body {
   max-width: 100%;
   height: auto;
   float: left;
+  margin-bottom: 10px;
 }
 
 /*--- Navigation ---*/
@@ -39,7 +38,7 @@ nav {
   align-items: center;
   min-height: 75px;
   background-color: #CDCB98;
-  font-family: 'Poppins', sans-serif;
+  font-family: lato;
   width: 100%;
 
 }
@@ -62,12 +61,6 @@ nav {
   font-weight: bold;
   font-size: 18px;
 }
-
-.active {
-  border-bottom: 2.5px solid white;
-
-}
-
 
 
 /*--- Burger Menu ---*/
@@ -423,12 +416,6 @@ gap: 1em;
 
 /*------ styling af forside --------*/
 
-.forside-header {
-  text-align: center;
-  font-family: 'Monoton', cursive;
-  font-size: 3em;
-  color: #333;
-}
 
 #main-btn {
   background-color: black;
@@ -590,6 +577,26 @@ justify-content: center;
 }
 
 
+/* --------- HISTORIE ----------*/
+#historie {
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* ------- KONTAKT OS ----------*/
+
+#kontakt {
+  width: 90%;
+  margin: 0 auto;
+}
+
+#kontakt h1 {
+  font-size: 1.8em;
+}
+
+#kontakt h2 {
+  font-size: 1.6em;
+}
 /* media query menu page desktop view */
 
 @media only screen and (min-width: 500px) {
@@ -673,6 +680,16 @@ justify-content: center;
     color: white;
     width: 25%;
     border-radius: 10px;
+    margin: 0 auto;
+  }
+
+  #historie {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  #kontakt {
+    width: 80%;
     margin: 0 auto;
   }
   

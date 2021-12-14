@@ -2,21 +2,25 @@
     {
     "title": "Vores Historie",
     "description": "PIZZABOYS er stiftet og drevet af Andreas Aarvig og Nicolai Engell, der begge har rigeligt erfaring hvad angår pizzaer. Begge to har arbejdet i flere år hos en stor dansk pizzariakæde og derfra kom inspirationen til, at lave deres egne pizzaer.",
-    "img": "../img/logo.png"
+    "img": "../img/historieimg3.jpg",
+    "alt":""
     },
     {
     "title": "Varme og glade dage",
     "description": "Kort inden EM i fodbold 2021 åbner vi vores stand på Ingerslevs Boulevard i Aarhus. Her var PIZZABOYS blot et fritidsprojekt og et anderledes sommerjob for Andreas og Nicolai. Begge havde sommerferie fra deres universitetsstudier og så PIZZABOYS som en hyggelig sidegesjæft henover sommeren. Efterspørgslen på deres pizzaer var så enorm, at de var nødt til at droppe bøgerne og fokusere på mel, tomatsovs og de andre lækre ingredienser.",
-    "img": "../img/logo.png"
+    "img": "../img/historie4.jpg",
+    "alt":""
     },
     {
     "title": "Vi vokser",
     "description": "Bøgerne bliver efter sommerferien lagt på hylden da Andreas og Nicolai så potentialet i PIZZABOYS. De går herefter all in på pizzaerne og Ingerslevs Boulevard og begynder, at arbejde fuldtid.",
-    "img": "../img/logo.png"
+    "img": "../img/historieimg2.jpg",
+    "alt":""
     },
     {
     "title": "PIZZABOYS flytter",
     "description": "Her er vi så i dag. PIZZABOYS befinder sig nu i hyggelige omgivelser på Aarhus Ø. Pizzaerne bliver stadig lavet med kærlighed og gode ingredienser. Du kan være en del af eventyret allerede i dag. Kom og køb vores lækre pizzaer!",
-    "img": "../img/logo.png"
+    "img": "../img/historieimg1.jpg",
+    "alt":""
     }
 ]
